@@ -1,0 +1,58 @@
+
+html
+    h1 {
+         text-align:center;
+        color:aliceblue
+
+}
+ h3 {
+         text-align:center;
+        color:aliceblue
+}
+  
+ #danil{
+     text-align:center;
+        color:crimson;
+}  
+
+td{
+     text-align:left;
+}
+td { font-size: 15px; }
+table {
+    border: 0px double #333; /* Рамка вокруг таблицы */ 
+    border-collapse: separate; /* Способ отображения границы */ 
+    width: 20%; /* Ширина таблицы */ 
+    border-spacing: 20px 2px; /* Расстояние между ячейками */ 
+   }
+   td {
+    padding: 0px; /* Поля вокруг текста */ 
+    border: 0px solid #a52a2a; /* Граница вокруг ячеек */ 
+   }
+.image {
+	position	: relative;
+	width		: 100%; /* for IE 6 */
+}
+
+.fig {
+    text-align: center; /* Выравнивание по центру */ 
+    border: 0px solid ; /* Рамка вокруг фотографии */
+    padding: 10px; /* Расстояние от картинки до рамки */
+    margin-right: 100px; /* Отступ справа */
+    
+    margin-bottom: 100px; /* Отступ снизу */
+   
+   }
+p{
+    font-family: Brush Script MT, Brush Script Std, cursive, sans-serif; /* Гарнитура шрифта */ 
+    font-size: 25pt; /* Размер текста */ 
+    font-weight: lighter; /* Светлое начертание */ 
+    text-align:center;
+
+}
+  .gradient {
+    background: #fefcea; /* Для старых браузров */
+    background: linear-gradient(to top, #E0FFFF, #EEE8AA);
+    padding: 10px;
+    border: 1px solid #EEE8AA;
+   }
