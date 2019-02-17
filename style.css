@@ -48,11 +48,11 @@ p{
     font-size: 25pt; /* Размер текста */ 
     font-weight: lighter; /* Светлое начертание */ 
     text-align:center;
+     color:aliceblue
 
 }
   .gradient {
     background: #fefcea; /* Для старых браузров */
-    background: linear-gradient(to top, #E0FFFF, #EEE8AA);
+    background: linear-gradient(to top, #008080, #708090);
     padding: 10px;
     border: 1px solid #EEE8AA;
-   }
